@@ -5,10 +5,14 @@
       <list>
         <option value="$PROJECT_DIR$/config-server/pom.xml" />
         <option value="$PROJECT_DIR$/limits-service/pom.xml" />
+        <option value="$PROJECT_DIR$/currency-exchange/pom.xml" />
+        <option value="$PROJECT_DIR$/currency-conversion/pom.xml" />
+        <option value="$PROJECT_DIR$/eureka-naming-server/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-api-gateway/pom.xml" />
       </list>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" project-jdk-name="11" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

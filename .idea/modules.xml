@@ -4,7 +4,11 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Microservices.iml" filepath="$PROJECT_DIR$/.idea/Microservices.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-server/config-server.iml" filepath="$PROJECT_DIR$/config-server/config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currency-conversion/currency-conversion.iml" filepath="$PROJECT_DIR$/currency-conversion/currency-conversion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/currency-exchange/currency-exchange.iml" filepath="$PROJECT_DIR$/currency-exchange/currency-exchange.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-naming-server/eureka-naming-server.iml" filepath="$PROJECT_DIR$/eureka-naming-server/eureka-naming-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/limits-service/limits-service.iml" filepath="$PROJECT_DIR$/limits-service/limits-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" filepath="$PROJECT_DIR$/zuul-api-gateway/zuul-api-gateway.iml" />
     </modules>
   </component>
 </project>

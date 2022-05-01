@@ -8,12 +8,28 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="currency-exchange" />
+        <module name="currency-conversion" />
         <module name="limits-service" />
+        <module name="zuul-api-gateway" />
+        <module name="eureka-naming-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="config-server" target="1.5" />
+      <module name="config-server" target="11" />
+      <module name="currency-conversion" target="1.8" />
+      <module name="currency-exchange" target="11" />
+      <module name="eureka-naming-server" target="1.8" />
       <module name="limits-service" target="11" />
+      <module name="zuul-api-gateway" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="currency-conversion" options="-parameters" />
+      <module name="currency-exchange" options="-parameters" />
+      <module name="eureka-naming-server" options="-parameters" />
+      <module name="zuul-api-gateway" options="-parameters" />
+    </option>
   </component>
 </project>
